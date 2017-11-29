@@ -9,6 +9,7 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_marginTop="113dp"
+        android:layout_marginBottom="25dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:foregroundGravity="center"
@@ -17,9 +18,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/title"
+        android:id="@+id/imageView2"
         android:layout_alignTop="@+id/imageView"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="17dp" />
 
     <pl.droidsonroids.gif.GifTextView
         android:layout_width="100dp"

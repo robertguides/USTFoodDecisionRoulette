@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.guides.ustfooddecisionroulette.Main2Activity"
+    android:background="#ffff66">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="139dp"
+        android:src="@drawable/banner"
+        android:layout_alignParentTop="true"
+        android:id="@+id/imageView4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:id="@+id/txtt"
+        android:layout_below="@id/imageView4"
+        android:layout_marginLeft="20pt"
+        android:textSize="50px"/>
+    <EditText
+        android:layout_width="500px"
+        android:layout_height="50px"
+        android:layout_below="@+id/txtt"
+        android:layout_marginLeft="40pt"
+        android:layout_marginTop="10px"
+        android:id="@+id/Edtt"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/txxxx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtt"
+        android:layout_below="@+id/Edtt"
+        android:layout_marginTop="20dp"
+        android:text="Description :"
+        android:textSize="50px" />
+    <EditText
+        android:layout_width="500px"
+        android:layout_height="300px"
+        android:layout_below="@+id/txxxx"
+        android:layout_marginLeft="40pt"
+        android:layout_marginTop="10px"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/edito"/>
+    <Button
+        android:text="Add"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txxxx"
+        android:layout_below="@+id/edito"
+        android:id="@+id/adddd"
+        android:onClick="Add2"/>
+    <Button
+        android:text="Cancel"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/adddd"
+        android:layout_marginLeft="90dp"
+        android:layout_below="@+id/edito"
+        android:id="@+id/canceeel"
+        android:onClick="Add2"/>
+</RelativeLayout>

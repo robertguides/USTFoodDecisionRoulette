@@ -38,3 +38,6 @@ dependencies {
     compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.+'
 
 }
+dependencies {
+    compile 'com.android.support.constraint:constraint-layout:+'
+}
